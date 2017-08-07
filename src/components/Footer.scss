@@ -4,3 +4,20 @@
   font-size: 90%;
   margin-top: 60px;
 }
+
+.footer-menu {
+  &__list {
+    align-items: center;
+    display: flex;
+    list-style-type: none;
+    margin-left: 0;
+  }
+
+  &__list-item {
+    margin-right: 10px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

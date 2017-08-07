@@ -1,0 +1,15 @@
+@import '../../app/global';
+
+$icon--size: 24px;
+
+.icon {
+  display: block;
+  fill: $anchor-color;
+  height: $icon--size;
+  transition: fill 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+  width: $icon--size;
+
+  &:hover {
+    fill: $anchor-color-hover;
+  }
+}
