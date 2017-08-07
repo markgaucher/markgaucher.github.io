@@ -1,0 +1,2 @@
+webpackJsonp([0x625bf56a6aa33400],{"./node_modules/json-loader/index.js!./.cache/json/education.json":function(o,n){o.exports={pathContext:{}}}});
+//# sourceMappingURL=path---education-586c7e095e534a3909ec.js.map

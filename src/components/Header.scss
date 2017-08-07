@@ -1,9 +1,0 @@
-@import '../app/global';
-
-.header {
-  padding-top: 20px;
-
-  @include breakpoint(medium) {
-    padding-top: 30px;
-  }
-}
