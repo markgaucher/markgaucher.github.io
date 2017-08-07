@@ -1,0 +1,71 @@
+@import '../app/global';
+
+.main-menu {
+  font-weight: 300;
+
+  &__list {
+    display: flex;
+    list-style-type: none;
+    margin-bottom: 40px;
+    margin-left: 0;
+    margin-top: 40px;
+  }
+
+  &__list-item {
+    margin-bottom: 0;
+    margin-right: 20px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &__anchor {
+    border-bottom: 2px solid transparent;
+    display: block;
+    line-height: 1.25;
+    margin-top: 2px;
+    text-decoration: none;
+    transition: border-bottom-color 0.5s cubic-bezier(0.19, 1, 0.22, 1), color 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+
+    &.is-active {
+      color: $dark;
+    }
+
+    &.education {
+      &:hover,
+      &.is-active {
+        border-bottom-color: $primary;
+      }
+    }
+
+    &.work {
+      &:hover,
+      &.is-active {
+        border-bottom-color: $secondary;
+      }
+    }
+
+    &.skills {
+      &:hover,
+      &.is-active {
+        border-bottom-color: $tertiary;
+      }
+    }
+  }
+
+  svg {
+    height: 24px;
+    width: 24px;
+  }
+
+  @include breakpoint(medium) {
+    &__list {
+      margin-bottom: 80px;
+    }
+
+    &__list-item {
+      margin-right: 30px;
+    }
+  }
+}

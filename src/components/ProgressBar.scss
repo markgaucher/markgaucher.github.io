@@ -1,0 +1,49 @@
+@import '../app/global';
+
+$progress-bar--count: 0;
+$progress-bar--limit: 10;
+
+.progress-bar {
+  margin-bottom: 30px;
+
+  &__name {
+    display: block;
+    line-height: 1.25;
+    margin-bottom: 5px;
+  }
+
+  &__description {
+    color: $medium;
+    font-size: 90%;
+  }
+
+  &__content {
+    background-color: $light;
+    border-radius: 2px;
+    height: 4px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+
+  &__progress {
+    background-color: $tertiary;
+    bottom: 0;
+    left: 0;
+    max-width: 95%;
+    position: absolute;
+    top: 0;
+    transition: width 1s cubic-bezier(0.19, 1, 0.22, 1);
+    width: 0;
+  }
+
+  @while ($progress-bar--count < $progress-bar--limit) {
+    &:nth-of-type(#{$progress-bar--count}) {
+      .progress-bar__progress {
+        transition-delay: 0.1s * $progress-bar--count;
+      }
+    }
+
+    $progress-bar--count: $progress-bar--count + 1;
+  }
+}
