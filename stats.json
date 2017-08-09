@@ -1,16 +1,20 @@
 {
   "assetsByChunkName": {
     "page-component---src-pages-education-js": [
-      "page-component---src-pages-education-js-34e2ce121d151505f19a.js",
-      "page-component---src-pages-education-js-34e2ce121d151505f19a.js.map"
+      "page-component---src-pages-education-js-308bfbb3e071a173e475.js",
+      "page-component---src-pages-education-js-308bfbb3e071a173e475.js.map"
     ],
     "page-component---src-pages-work-experience-js": [
       "page-component---src-pages-work-experience-js-1f14856f1eab822241e8.js",
       "page-component---src-pages-work-experience-js-1f14856f1eab822241e8.js.map"
     ],
     "page-component---src-pages-index-js": [
-      "page-component---src-pages-index-js-9752b19cd9c0f53fd8f5.js",
-      "page-component---src-pages-index-js-9752b19cd9c0f53fd8f5.js.map"
+      "page-component---src-pages-index-js-da88d9a70c5d899d394a.js",
+      "page-component---src-pages-index-js-da88d9a70c5d899d394a.js.map"
+    ],
+    "path---posts-back-end-development": [
+      "path---posts-back-end-development-699a758f2dfab52ec888.js",
+      "path---posts-back-end-development-699a758f2dfab52ec888.js.map"
     ],
     "path---work-experience": [
       "path---work-experience-586c7e095e534a3909ec.js",
@@ -41,16 +45,24 @@
       "path---404-html-586c7e095e534a3909ec.js.map"
     ],
     "page-component---src-pages-skills-js": [
-      "page-component---src-pages-skills-js-7b62440764d819636f40.js",
-      "page-component---src-pages-skills-js-7b62440764d819636f40.js.map"
+      "page-component---src-pages-skills-js-d086077adfe6bee87294.js",
+      "page-component---src-pages-skills-js-d086077adfe6bee87294.js.map"
     ],
     "path---posts-hello-world": [
-      "path---posts-hello-world-80c38c3d4d1a51ada99f.js",
-      "path---posts-hello-world-80c38c3d4d1a51ada99f.js.map"
+      "path---posts-hello-world-5be9d67574b8575e5eb9.js",
+      "path---posts-hello-world-5be9d67574b8575e5eb9.js.map"
+    ],
+    "path---posts-graphql-introduction": [
+      "path---posts-graphql-introduction-70819e9250dd19e67e4d.js",
+      "path---posts-graphql-introduction-70819e9250dd19e67e4d.js.map"
+    ],
+    "path---posts-front-end-development": [
+      "path---posts-front-end-development-a9a07ceac8b300d3b9b9.js",
+      "path---posts-front-end-development-a9a07ceac8b300d3b9b9.js.map"
     ],
     "app": [
-      "app-8f50b590eac781f8fbb5.js",
-      "app-8f50b590eac781f8fbb5.js.map"
+      "app-76114bd7d8ea87ec6016.js",
+      "app-76114bd7d8ea87ec6016.js.map"
     ],
     "path---404": [
       "path---404-586c7e095e534a3909ec.js",
@@ -61,8 +73,12 @@
       "page-component---src-templates-post-js-12ab91f48070d0c11173.js.map"
     ],
     "layout-component---index": [
-      "layout-component---index-90df84c1f5648ebceb7b.js",
-      "layout-component---index-90df84c1f5648ebceb7b.js.map"
+      "layout-component---index-b64d0c77c1f58f1b4775.js",
+      "layout-component---index-b64d0c77c1f58f1b4775.js.map"
+    ],
+    "path---posts-graphql-authentication": [
+      "path---posts-graphql-authentication-42b40d2f00f276744075.js",
+      "path---posts-graphql-authentication-42b40d2f00f276744075.js.map"
     ]
   }
 }
