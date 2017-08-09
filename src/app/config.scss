@@ -1,40 +1,5 @@
 @import './global';
 
-$body-font-family: 'Rubik', "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-$global-font-size: 112.5%;
-$global-weight-normal: 300;
-$anchor-color: $medium;
-$anchor-color-hover: scale-color($anchor-color, $lightness: -14%);
-$header-font-family: $body-font-family;
-$header-font-weight: 500;
-$header-lineheight: 1.15;
-$header-styles: (
-  small:
-    (
-      'h1': ('font-size': 24),
-      'h2': ('font-size': 20),
-      'h3': ('font-size': 19),
-      'h4': ('font-size': 18),
-      'h5': ('font-size': 17),
-      'h6': ('font-size': 16)
-    ),
-  medium:
-    (
-      'h1': ('font-size': 42),
-      'h2': ('font-size': 32),
-      'h3': ('font-size': 28),
-      'h4': ('font-size': 24),
-      'h5': ('font-size': 21),
-      'h6': ('font-size': 18)
-    )
-);
-$xy-grid: true;
-$grid-container: 1140px;
-$grid-columns: 12;
-$grid-margin-gutters: 40px;
-$grid-container-padding: 40px;
-$grid-container-max: 1600px;
-
 @include foundation-xy-grid-classes(
   $base-grid: true,
   $margin-grid: true,
@@ -90,6 +55,16 @@ $grid-container-max: 1600px;
   }
 }
 
+h1 {
+  margin-bottom: rem-calc(25);
+  margin-top: 0;
+}
+
+h2 {
+  margin-bottom: rem-calc(25);
+  margin-top: 0;
+}
+
 blockquote {
   border-left: 4px solid $light;
   color: $dark;
@@ -97,10 +72,6 @@ blockquote {
   padding-left: 40px;
   padding-bottom: 20px;
   padding-top: 20px;
-
-  h1 {
-    margin-top: 0;
-  }
 
   & p {
     color: $medium;
@@ -114,6 +85,44 @@ blockquote {
 
 a {
   transition: color 0.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.button {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: 500;
+  position: relative;
+  z-index: 1;
+
+  &::before {
+    background-color: $primary;
+    bottom: 4px;
+    content: '';
+    display: block;
+    height: 8px;
+    left: 0;
+    opacity: 0.35;
+    position: absolute;
+    right: 0;
+    transition: opacity 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+    width: 100%;
+    z-index: -1;
+  }
+
+  &,
+  &:hover {
+    color: $dark;
+  }
+
+  &:hover {
+    &::before {
+      opacity: 0.75;
+    }
+  }
+}
+
+.tag {
+  font-size: 90%;
 }
 
 .education {

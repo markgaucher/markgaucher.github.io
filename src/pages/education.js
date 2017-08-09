@@ -24,6 +24,13 @@ Education.defaultProps = {
       duration: '2006-2010'
     },
     {
+      name: 'Algonquin College',
+      link: 'http://www.algonquincollege.com/mediaanddesign/program/bit-interactive-multimedia-and-design/',
+      degree: 'Interactive Multimedia and Design',
+      location: 'Ottawa, Ontario, Canada',
+      duration: '2006-2010'
+    },
+    {
       name: 'University of Saskatchewan',
       link: 'https://www.usask.ca/',
       degree: 'Arts and Science',

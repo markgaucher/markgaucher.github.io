@@ -11,19 +11,24 @@ const Sidebar = () => {
       <div className="sidebar__content">
         <ul>
           <li>
+            <Link to="/posts/front-end-development">Front End Development and Me</Link>
+            <div className="tag">About</div>
+          </li>
+          <li>
+            <Link to="/posts/back-end-development">Back End Development and Me</Link>
+            <div className="tag">About</div>
+          </li>
+          <li>
+            <Link to="/posts/graphql-introduction">GraphQL: Introduction</Link>
+            <div className="tag">Tutorial</div>
+          </li>
+          <li>
+            <Link to="/posts/graphql-authentication">GraphQL: Authentication</Link>
+            <div className="tag">Tutorial</div>
+          </li>
+          <li>
             <Link to="/posts/hello-world">Hello World!</Link>
-          </li>
-          <li>
-            <Link to="/">Lorem ipsum dolar sit amet</Link>
-          </li>
-          <li>
-            <Link to="/">Lorem ipsum dolar sit amet</Link>
-          </li>
-          <li>
-            <Link to="/">Lorem ipsum dolar sit amet</Link>
-          </li>
-          <li>
-            <Link to="/">Lorem ipsum dolar sit amet</Link>
+            <div className="tag">Article</div>
           </li>
         </ul>
       </div>

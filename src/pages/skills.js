@@ -4,7 +4,13 @@ import Link from 'gatsby-link';
 import ProgressBar from '../components/ProgressBar';
 
 const Skills = ({ items }) =>
-  <div>
+  <div className="page">
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis libero vero, dolor optio quibusdam ipsa
+      nostrum expedita fugit quam necessitatibus amet, sequi repellendus accusantium adipisci asperiores facere.
+      Asperiores, quis libero.
+    </p>
+    <br />
     {items.map(item => <ProgressBar key={item.name} {...item} />)}
   </div>;
 
@@ -24,6 +30,11 @@ Skills.defaultProps = {
       name: 'React.js',
       description: 'Senior',
       experience: 4
+    },
+    {
+      name: 'React Native',
+      description: 'Intermediate',
+      experience: 3.5
     },
     {
       name: 'Node.js',

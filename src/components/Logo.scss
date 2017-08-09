@@ -46,6 +46,7 @@ $logo--size: 85px;
 
   &__description {
     color: $medium;
+    display: none;
     font-size: 90%;
     position: absolute;
     left: $logo--size + 5px;

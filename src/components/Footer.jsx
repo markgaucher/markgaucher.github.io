@@ -9,7 +9,8 @@ const Footer = () => {
   return (
     <footer className="footer">
       <p>
-        &copy; 2017 Mark Gaucher | Site built with <a href="https://www.gatsbyjs.org">Gatsby.js</a>
+        &copy; 2017 <a href="mailto:hello@markgaucher.com">Mark Gaucher</a> | Site built with{' '}
+        <a href="https://www.gatsbyjs.org">Gatsby.js</a>
       </p>
       <nav className="footer-menu">
         <ul className="footer-menu__list">
