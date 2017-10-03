@@ -6,9 +6,14 @@ import ProgressBar from '../components/ProgressBar';
 const Skills = ({ items }) =>
   <div className="page">
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis libero vero, dolor optio quibusdam ipsa
-      nostrum expedita fugit quam necessitatibus amet, sequi repellendus accusantium adipisci asperiores facere.
-      Asperiores, quis libero.
+      Trying to create an exhaustive list of the languages and frameworks that I have used
+      throughout the course of my career is challenging. Below is an overview of the tools I have
+      engaged with on a consistent basis.
+    </p>
+    <p>
+      I have always been eager to further develop and add to my developer toolbox. I have actively
+      sought out opportunities to learn and apply new languages. My ability to pick up skills
+      quickly has allowed me to contribute to quickly evolving projects in a meaningful way.
     </p>
     <br />
     {items.map(item => <ProgressBar key={item.name} {...item} />)}

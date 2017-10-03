@@ -46,6 +46,38 @@
     margin-bottom: 0;
   }
 
+  &__position {
+    font-weight: 400;
+    float: left;
+    margin-right: rem-calc(10);
+  }
+
+  &__duration {
+    color: $dark-gray;
+  }
+
+  &__description,
+  &__notes {
+    display: block;
+    font-size: 90%;
+    line-height: 1.4;
+    margin-top: rem-calc(10);
+  }
+
+  &__description {
+    margin-bottom: 0;
+  }
+
+  &__notes {
+    margin-top: rem-calc(15);
+
+    > li {
+      + li {
+        margin-top: rem-calc(10);
+      }
+    }
+  }
+
   @include breakpoint(medium) {
     &__name {
       font-size: 28px;
@@ -55,6 +87,11 @@
           bottom: 2px;
         }
       }
+    }
+
+    &__description,
+    &__notes {
+      margin-right: rem-calc(50);
     }
   }
 }

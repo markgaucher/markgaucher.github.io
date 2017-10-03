@@ -3,7 +3,7 @@ import Link from 'gatsby-link';
 
 import './Job.scss';
 
-const Job = ({ duration, link, name, position }) => {
+const Job = ({ description, duration, link, name, notes, position }) => {
   return (
     <div className="job">
       <h2 className="job__name">
@@ -17,6 +17,18 @@ const Job = ({ duration, link, name, position }) => {
       <p className="job__duration">
         {duration}
       </p>
+      {description &&
+        <p className="job__description">
+          {description}
+        </p>}
+      {notes &&
+        <ul className="job__notes">
+          {notes.map(note =>
+            <li>
+              {note}
+            </li>
+          )}
+        </ul>}
     </div>
   );
 };

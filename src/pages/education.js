@@ -26,7 +26,7 @@ Education.defaultProps = {
     {
       name: 'Algonquin College',
       link: 'http://www.algonquincollege.com/mediaanddesign/program/bit-interactive-multimedia-and-design/',
-      degree: 'Interactive Multimedia and Design',
+      degree: 'Diploma in Interactive Multimedia and Design',
       location: 'Ottawa, Ontario, Canada',
       duration: '2006-2010'
     },

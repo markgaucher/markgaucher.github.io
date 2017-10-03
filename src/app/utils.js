@@ -6,6 +6,8 @@ export const getClassName = prefix => {
       return ` ${prefix}--work-experience`;
     } else if (window.location.pathname === '/skills') {
       return ` ${prefix}--skills`;
+    } else if (window.location.pathname === '/about') {
+      return ` ${prefix}--about`;
     } else {
       return '';
     }

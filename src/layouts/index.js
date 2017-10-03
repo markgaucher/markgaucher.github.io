@@ -32,9 +32,11 @@ const TemplateWrapper = ({ children }) => {
             <div className="cell small-12 large-7">
               {children()}
             </div>
-            <div className="cell small-12 large-4 large-offset-1">
-              <Sidebar />
-            </div>
+            {/*
+              <div className="cell small-12 large-4 large-offset-1">
+                <Sidebar />
+              </div>
+            */}
           </div>
           <div className="grid-x grid-margin-x">
             <div className="cell small-12 large-8">

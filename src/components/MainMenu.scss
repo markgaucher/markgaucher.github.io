@@ -26,7 +26,8 @@
     line-height: 1.25;
     margin-top: 2px;
     text-decoration: none;
-    transition: border-bottom-color 0.5s cubic-bezier(0.19, 1, 0.22, 1), color 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+    transition: border-bottom-color 0.5s cubic-bezier(0.19, 1, 0.22, 1),
+      color 0.5s cubic-bezier(0.19, 1, 0.22, 1);
 
     &.is-active {
       color: $dark;
@@ -50,6 +51,13 @@
       &:hover,
       &.is-active {
         border-bottom-color: $tertiary;
+      }
+    }
+
+    &.about {
+      &:hover,
+      &.is-active {
+        border-bottom-color: $quaternary;
       }
     }
   }

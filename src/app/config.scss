@@ -52,6 +52,12 @@
         background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' width='32' height='64' viewBox='0 0 32 64'><polygon points='0,0 32,0 32,64 10,64' style='fill: #c3423f'></polygon></svg>");
       }
     }
+
+    &--about {
+      &::before {
+        background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' width='32' height='64' viewBox='0 0 32 64'><polygon points='0,0 32,0 32,64 10,64' style='fill: #d8973c'></polygon></svg>");
+      }
+    }
   }
 }
 
@@ -95,7 +101,7 @@ a {
   z-index: 1;
 
   &::before {
-    background-color: $primary;
+    background-color: $medium;
     bottom: 4px;
     content: '';
     display: block;
@@ -131,7 +137,7 @@ a {
     margin-left: 0;
 
     &-item {
-      margin-bottom: 30px;
+      margin-bottom: rem-calc(40);
     }
   }
 }
