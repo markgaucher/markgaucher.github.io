@@ -1,16 +1,16 @@
 {
   "assetsByChunkName": {
     "page-component---src-pages-education-js": [
-      "page-component---src-pages-education-js-308bfbb3e071a173e475.js",
-      "page-component---src-pages-education-js-308bfbb3e071a173e475.js.map"
+      "page-component---src-pages-education-js-b7bb1598d53228e1dc59.js",
+      "page-component---src-pages-education-js-b7bb1598d53228e1dc59.js.map"
     ],
     "page-component---src-pages-work-experience-js": [
-      "page-component---src-pages-work-experience-js-1f14856f1eab822241e8.js",
-      "page-component---src-pages-work-experience-js-1f14856f1eab822241e8.js.map"
+      "page-component---src-pages-work-experience-js-29f8042120972bec3afb.js",
+      "page-component---src-pages-work-experience-js-29f8042120972bec3afb.js.map"
     ],
     "page-component---src-pages-index-js": [
-      "page-component---src-pages-index-js-da88d9a70c5d899d394a.js",
-      "page-component---src-pages-index-js-da88d9a70c5d899d394a.js.map"
+      "page-component---src-pages-index-js-21888bb86461afdaf06d.js",
+      "page-component---src-pages-index-js-21888bb86461afdaf06d.js.map"
     ],
     "path---posts-back-end-development": [
       "path---posts-back-end-development-699a758f2dfab52ec888.js",
@@ -45,8 +45,8 @@
       "path---404-html-586c7e095e534a3909ec.js.map"
     ],
     "page-component---src-pages-skills-js": [
-      "page-component---src-pages-skills-js-d086077adfe6bee87294.js",
-      "page-component---src-pages-skills-js-d086077adfe6bee87294.js.map"
+      "page-component---src-pages-skills-js-e129097ff7d68600497a.js",
+      "page-component---src-pages-skills-js-e129097ff7d68600497a.js.map"
     ],
     "path---posts-hello-world": [
       "path---posts-hello-world-5be9d67574b8575e5eb9.js",
@@ -61,8 +61,12 @@
       "path---posts-front-end-development-a9a07ceac8b300d3b9b9.js.map"
     ],
     "app": [
-      "app-76114bd7d8ea87ec6016.js",
-      "app-76114bd7d8ea87ec6016.js.map"
+      "app-92d261fd9ff2e654f467.js",
+      "app-92d261fd9ff2e654f467.js.map"
+    ],
+    "page-component---src-pages-about-js": [
+      "page-component---src-pages-about-js-a9344b7d368f3c6cbb83.js",
+      "page-component---src-pages-about-js-a9344b7d368f3c6cbb83.js.map"
     ],
     "path---404": [
       "path---404-586c7e095e534a3909ec.js",
@@ -73,8 +77,12 @@
       "page-component---src-templates-post-js-12ab91f48070d0c11173.js.map"
     ],
     "layout-component---index": [
-      "layout-component---index-b64d0c77c1f58f1b4775.js",
-      "layout-component---index-b64d0c77c1f58f1b4775.js.map"
+      "layout-component---index-354d0f2233e66d9bcf43.js",
+      "layout-component---index-354d0f2233e66d9bcf43.js.map"
+    ],
+    "path---about": [
+      "path---about-586c7e095e534a3909ec.js",
+      "path---about-586c7e095e534a3909ec.js.map"
     ],
     "path---posts-graphql-authentication": [
       "path---posts-graphql-authentication-42b40d2f00f276744075.js",
