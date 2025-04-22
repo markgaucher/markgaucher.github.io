@@ -1,0 +1,78 @@
+.logo {
+	display: inline-flex;
+	height: 150px;
+	margin-left: -20px;
+	position: relative;
+}
+
+.logo:hover .logo__inset {
+    text-shadow: 0 0 0 rgb(0 0 0 / 25%);
+    transform: translate3d(2px, 8px, 0);
+}
+
+.logo:hover .logo__name {
+    text-shadow: 2px 4px 0 rgb(0 0 0 / 25%);
+    transform: translate3d(-2px, 0, 0);
+}
+
+.logo__circle {
+	border-radius: 50%;
+	height: 150px;
+	left: 0;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	width: 150px;
+	z-index: 10;
+}
+
+.logo__background {
+	/* https://www.color-name.com/search/sunset */
+	background-image: linear-gradient(
+		-15deg,
+		var(--color-midnight),
+		var(--color-night),
+		var(--color-sunrise),
+		var(--color-day),
+		var(--color-sunset),
+		var(--color-night),
+		var(--color-midnight)
+	);
+	height: 1500px;
+	position: absolute;
+	width: 100vw;
+}
+
+.logo__inset {
+	color: var(--color-light);
+	display: block;
+	font-family: Rubik, sans-serif;
+	font-size: 64px;
+	font-weight: 700;
+	line-height: 150px;
+	left: 20px;
+	position: absolute;
+	text-shadow: 2px 4px 0 rgb(0 0 0 / 25%);
+	text-transform: uppercase;
+	top: 0;
+	transform: translate3d(0, 3px, 0);
+	transition: text-shadow 0.15s ease-in-out, transform 0.15s ease-in-out;
+	white-space: nowrap;
+}
+
+.logo__name {
+    color: var(--color-text);
+	display: block;
+	font-size: 64px;
+	font-weight: 700;
+	line-height: 150px;
+	left: 20px;
+    opacity: var(--logo-opacity);
+	position: absolute;
+	text-shadow: 0 0 0 rgb(0 0 0 / 25%);
+	text-transform: uppercase;
+	top: 0;
+	transform: translate3d(0, 3px, 0);
+	transition: text-shadow 0.15s ease-in-out, transform 0.15s ease-in-out;
+	white-space: nowrap;
+}

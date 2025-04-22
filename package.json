@@ -1,30 +1,41 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "markgaucher.github.io",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "dependencies": {
-    "foundation-sites": "^6.4.1",
-    "gatsby": "^1.0.1",
-    "gatsby-link": "^1.0.1",
-    "gatsby-plugin-react-helmet": "^1.0.1",
-    "gatsby-plugin-sass": "^1.0.1",
-    "gatsby-remark-copy-linked-files": "^1.5.0",
-    "gatsby-source-filesystem": "^1.4.1",
-    "gatsby-transformer-remark": "^1.6.3",
-    "gh-pages": "^1.0.0"
-  },
-  "keywords": ["gatsby"],
-  "license": "MIT",
-  "main": "n/a",
+  "private": true,
+  "description": "markgaucher.com",
+  "author": "Mark Gaucher",
+  "keywords": [
+    "gatsby"
+  ],
   "scripts": {
-    "build": "gatsby build",
     "develop": "gatsby develop",
-    "deploy": "rm -rf public/*.html && gatsby build && gh-pages -d public -b master",
-    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit",
+    "deploy": "rm -rf public/*.html && gatsby build && gh-pages -d public -b main",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.tsx'"
+  },
+  "dependencies": {
+    "babel-plugin-styled-components": "^2.0.7",
+    "dayjs": "^1.11.7",
+    "gatsby": "5.14.3",
+    "gatsby-omni-font-loader": "^2.0.2",
+    "gatsby-plugin-styled-components": "^6.3.0",
+    "normalize.css": "^8.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "styled-components": "^5.3.6"
   },
   "devDependencies": {
-    "prettier": "^1.5.2"
+    "@types/node": "^18.11.9",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.8",
+    "@types/styled-components": "^5.1.26",
+    "gh-pages": "^6.3.0",
+    "prettier": "^3.5.3",
+    "typescript": "^4.8.4"
   }
 }

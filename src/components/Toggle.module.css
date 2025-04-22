@@ -1,0 +1,29 @@
+.toggle {
+    background-color: transparent;
+    border-radius: 0.75rem;
+    border: none;
+    position: relative;
+    height: 1.25rem;
+    margin-top: -1px;
+    outline: 1.5px solid var(--color-text);
+    text-indent: -9999px;
+    width: 2.5rem;
+}
+
+.toggle::after {
+    background-color: var(--color-text);
+    border-radius: 50%;
+    content: '';
+    display: block;
+    height: calc(1.25rem - 4px);
+    left: 0;
+    margin: 2px;
+    position: absolute;
+    transition: left 0.25s ease-in-out;
+    top: 0;
+    width: calc(1.25rem - 4px);
+}
+
+.toggle[data-mode="light"]::after {
+    left: 1.25rem;
+}
