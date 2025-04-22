@@ -14,7 +14,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "typecheck": "tsc --noEmit",
-    "deploy": "rm -rf public/*.html && gatsby build && gh-pages -d public -b main",
+    "deploy": "rm -rf public/*.html && gatsby build && gh-pages -d public -b main --cname markgaucher.com",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.tsx'"
   },
   "dependencies": {
